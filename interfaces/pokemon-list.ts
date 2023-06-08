@@ -17,6 +17,13 @@ export interface PokeAPIInterface {
 export interface ResultPokemons {
     name: string;
     url:  string;
-    id: null,
+    id: number,
+    img: string
+}
+
+export interface ResultFavorites {
+    name: string;
+    url:  string;
+    id: number,
     img: string
 }

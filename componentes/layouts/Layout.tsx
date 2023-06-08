@@ -22,9 +22,7 @@ export const Layout: FC<Props> = ({ title, img, children }) => {
 
             </Head>
 
-            <Navbar>
-
-            </Navbar>
+            <Navbar />
 
             <main>
                 { children }
